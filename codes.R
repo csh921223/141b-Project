@@ -3,9 +3,6 @@ library(tidyverse)
 library(jsonlite)
 library(rvest)
 
-ii <- "https://s3-media3.fl.yelpcdn.com/bphoto/pghQ3BGbygXPcmOssuMEcA/o.jpg"
-
-
 url_list = vector()
 url_list <- c(url_list, 1:20)
 id_list = vector()
